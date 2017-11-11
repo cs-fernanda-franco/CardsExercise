@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		497E82B21FB73B1900A15902 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B11FB73B1900A15902 /* CardTableViewCell.swift */; };
+		497E82B41FB7486900A15902 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B31FB7486900A15902 /* ViewControllerTest.swift */; };
 		4995C1D11FB7373800D856BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1D01FB7373800D856BB /* AppDelegate.swift */; };
 		4995C1D31FB7373800D856BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1D21FB7373800D856BB /* ViewController.swift */; };
 		4995C1D61FB7373800D856BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D41FB7373800D856BB /* Main.storyboard */; };
 		4995C1D81FB7373800D856BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D71FB7373800D856BB /* Assets.xcassets */; };
 		4995C1DB1FB7373800D856BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D91FB7373800D856BB /* LaunchScreen.storyboard */; };
-		4995C1E61FB7373800D856BB /* CardsExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1E51FB7373800D856BB /* CardsExerciseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		497E82B11FB73B1900A15902 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		497E82B31FB7486900A15902 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 		4995C1CD1FB7373800D856BB /* CardsExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4995C1D01FB7373800D856BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4995C1D21FB7373800D856BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		4995C1DA1FB7373800D856BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4995C1DC1FB7373800D856BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4995C1E11FB7373800D856BB /* CardsExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4995C1E51FB7373800D856BB /* CardsExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExerciseTests.swift; sourceTree = "<group>"; };
 		4995C1E71FB7373800D856BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,8 @@
 		4995C1E41FB7373800D856BB /* CardsExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				4995C1E51FB7373800D856BB /* CardsExerciseTests.swift */,
 				4995C1E71FB7373800D856BB /* Info.plist */,
+				497E82B31FB7486900A15902 /* ViewControllerTest.swift */,
 			);
 			path = CardsExerciseTests;
 			sourceTree = "<group>";
@@ -153,6 +153,7 @@
 					};
 					4995C1E01FB7373800D856BB = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4995C1CC1FB7373800D856BB;
 					};
@@ -212,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4995C1E61FB7373800D856BB /* CardsExerciseTests.swift in Sources */,
+				497E82B41FB7486900A15902 /* ViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,11 +387,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CardsExerciseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernanda.CardsExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsExercise.app/CardsExercise";
@@ -402,6 +405,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CardsExerciseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

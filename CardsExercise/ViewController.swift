@@ -18,7 +18,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     var cards: [Card] = [
         Card(holderName: "Fernanda", flag: "master"),
         Card(holderName: "Thiago", flag: "visa"),
-        Card(holderName: "Jose", flag: "master")
+        Card(holderName: "Jose", flag: "master"),
+        Card(holderName: "Ci", flag: "visa")
     ]
     
     
