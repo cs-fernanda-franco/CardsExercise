@@ -10,12 +10,15 @@
 		497E82B21FB73B1900A15902 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B11FB73B1900A15902 /* CardTableViewCell.swift */; };
 		497E82B61FB77BD200A15902 /* CardsRepositoryServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */; };
 		4995C1D11FB7373800D856BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1D01FB7373800D856BB /* AppDelegate.swift */; };
-		4995C1D31FB7373800D856BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1D21FB7373800D856BB /* ViewController.swift */; };
-		4995C1D61FB7373800D856BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D41FB7373800D856BB /* Main.storyboard */; };
 		4995C1D81FB7373800D856BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D71FB7373800D856BB /* Assets.xcassets */; };
 		4995C1DB1FB7373800D856BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4995C1D91FB7373800D856BB /* LaunchScreen.storyboard */; };
 		49AA0A441FB77D5E00323E84 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0A431FB77D5E00323E84 /* CardRepository.swift */; };
 		49AA0A461FB7852900323E84 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0A451FB7852900323E84 /* Card.swift */; };
+		49AA0A481FB86E0400323E84 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0A471FB86E0400323E84 /* CardsViewController.swift */; };
+		49E7EB711FB87992000FCF8E /* ActionsTabViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7EB701FB87992000FCF8E /* ActionsTabViewSpec.swift */; };
+		49E7EB731FB879B4000FCF8E /* ActionsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7EB721FB879B4000FCF8E /* ActionsTabView.swift */; };
+		49E7EB751FB87AE3000FCF8E /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7EB741FB87AE3000FCF8E /* CodeView.swift */; };
+		49E7EB791FB887BD000FCF8E /* CardsControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7EB781FB887BD000FCF8E /* CardsControllerView.swift */; };
 		5C9D3B19AE98AEC749C69B18 /* Pods_CardsExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93F59E6F510D4375B36FDE4 /* Pods_CardsExercise.framework */; };
 		8C5AAE7F709EF3AB93865113 /* Pods_CardsExerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C0026C28D27DC921993933 /* Pods_CardsExerciseTests.framework */; };
 /* End PBXBuildFile section */
@@ -37,8 +40,6 @@
 		497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsRepositoryServiceSpec.swift; sourceTree = "<group>"; };
 		4995C1CD1FB7373800D856BB /* CardsExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4995C1D01FB7373800D856BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4995C1D21FB7373800D856BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4995C1D51FB7373800D856BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4995C1D71FB7373800D856BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4995C1DA1FB7373800D856BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4995C1DC1FB7373800D856BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +47,11 @@
 		4995C1E71FB7373800D856BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49AA0A431FB77D5E00323E84 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
 		49AA0A451FB7852900323E84 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		49AA0A471FB86E0400323E84 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		49E7EB701FB87992000FCF8E /* ActionsTabViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsTabViewSpec.swift; sourceTree = "<group>"; };
+		49E7EB721FB879B4000FCF8E /* ActionsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsTabView.swift; sourceTree = "<group>"; };
+		49E7EB741FB87AE3000FCF8E /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		49E7EB781FB887BD000FCF8E /* CardsControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsControllerView.swift; sourceTree = "<group>"; };
 		A93F59E6F510D4375B36FDE4 /* Pods_CardsExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardsExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDA31FAF63E5218DDE78414 /* Pods-CardsExerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsExerciseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardsExerciseTests/Pods-CardsExerciseTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4C6DA4587D61F4B9BB24DCD /* Pods-CardsExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardsExercise/Pods-CardsExercise.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,14 +113,16 @@
 			isa = PBXGroup;
 			children = (
 				4995C1D01FB7373800D856BB /* AppDelegate.swift */,
-				4995C1D21FB7373800D856BB /* ViewController.swift */,
-				4995C1D41FB7373800D856BB /* Main.storyboard */,
 				4995C1D71FB7373800D856BB /* Assets.xcassets */,
 				4995C1D91FB7373800D856BB /* LaunchScreen.storyboard */,
 				4995C1DC1FB7373800D856BB /* Info.plist */,
 				497E82B11FB73B1900A15902 /* CardTableViewCell.swift */,
 				49AA0A431FB77D5E00323E84 /* CardRepository.swift */,
 				49AA0A451FB7852900323E84 /* Card.swift */,
+				49AA0A471FB86E0400323E84 /* CardsViewController.swift */,
+				49E7EB721FB879B4000FCF8E /* ActionsTabView.swift */,
+				49E7EB741FB87AE3000FCF8E /* CodeView.swift */,
+				49E7EB781FB887BD000FCF8E /* CardsControllerView.swift */,
 			);
 			path = CardsExercise;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 			children = (
 				4995C1E71FB7373800D856BB /* Info.plist */,
 				497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */,
+				49E7EB701FB87992000FCF8E /* ActionsTabViewSpec.swift */,
 			);
 			path = CardsExerciseTests;
 			sourceTree = "<group>";
@@ -229,7 +238,6 @@
 			files = (
 				4995C1DB1FB7373800D856BB /* LaunchScreen.storyboard in Resources */,
 				4995C1D81FB7373800D856BB /* Assets.xcassets in Resources */,
-				4995C1D61FB7373800D856BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +324,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CardsExerciseTests/Pods-CardsExerciseTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF-Quick/KIF_Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF_Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,9 +351,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CardsExercise/Pods-CardsExercise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,11 +372,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4995C1D31FB7373800D856BB /* ViewController.swift in Sources */,
+				49E7EB791FB887BD000FCF8E /* CardsControllerView.swift in Sources */,
 				49AA0A441FB77D5E00323E84 /* CardRepository.swift in Sources */,
 				49AA0A461FB7852900323E84 /* Card.swift in Sources */,
+				49AA0A481FB86E0400323E84 /* CardsViewController.swift in Sources */,
 				497E82B21FB73B1900A15902 /* CardTableViewCell.swift in Sources */,
+				49E7EB731FB879B4000FCF8E /* ActionsTabView.swift in Sources */,
 				4995C1D11FB7373800D856BB /* AppDelegate.swift in Sources */,
+				49E7EB751FB87AE3000FCF8E /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497E82B61FB77BD200A15902 /* CardsRepositoryServiceSpec.swift in Sources */,
+				49E7EB711FB87992000FCF8E /* ActionsTabViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4995C1D41FB7373800D856BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4995C1D51FB7373800D856BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4995C1D91FB7373800D856BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

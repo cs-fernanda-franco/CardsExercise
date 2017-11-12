@@ -6,12 +6,19 @@ target 'CardsExercise' do
   use_frameworks!
 
   # Pods for CardsExercise
+  pod 'SnapKit'
+  pod 'Reusable'
+
 
   target 'CardsExerciseTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Quick'
     pod 'Nimble'
+    pod 'KIF'
+    pod 'KIF-Quick'
+    pod 'Nimble-Snapshots'
+
   end
 
 end
@@ -19,7 +26,7 @@ end
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '3.2'
+      config.build_settings['SWIFT_VERSION'] = '4.0'
     end
   end
 end
