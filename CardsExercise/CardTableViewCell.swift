@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Reusable
 
-class CardTableViewCell: UITableViewCell {
+final class CardTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var holderName: UILabel!
     
-    @IBOutlet weak var flag: UILabel!
+    
+}
+
+extension CardTableViewCell: Reusable {
     
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493E3A0B1FBC6A53009971A5 /* CardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E3A0A1FBC6A53009971A5 /* CardsDataSource.swift */; };
+		493E3A0D1FBC6A71009971A5 /* CardsDataSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E3A0C1FBC6A71009971A5 /* CardsDataSourceSpec.swift */; };
 		497E82B21FB73B1900A15902 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B11FB73B1900A15902 /* CardTableViewCell.swift */; };
 		497E82B61FB77BD200A15902 /* CardsRepositoryServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */; };
 		4995C1D11FB7373800D856BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C1D01FB7373800D856BB /* AppDelegate.swift */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		17D56C5FA955A4B489526C0C /* Pods-CardsExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardsExercise/Pods-CardsExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		2A0565C09CC7DC44BC7823A4 /* Pods-CardsExerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsExerciseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardsExerciseTests/Pods-CardsExerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		493E3A0A1FBC6A53009971A5 /* CardsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDataSource.swift; sourceTree = "<group>"; };
+		493E3A0C1FBC6A71009971A5 /* CardsDataSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDataSourceSpec.swift; sourceTree = "<group>"; };
 		497E82B11FB73B1900A15902 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsRepositoryServiceSpec.swift; sourceTree = "<group>"; };
 		4995C1CD1FB7373800D856BB /* CardsExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +127,7 @@
 				49E7EB721FB879B4000FCF8E /* ActionsTabView.swift */,
 				49E7EB741FB87AE3000FCF8E /* CodeView.swift */,
 				49E7EB781FB887BD000FCF8E /* CardsControllerView.swift */,
+				493E3A0A1FBC6A53009971A5 /* CardsDataSource.swift */,
 			);
 			path = CardsExercise;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				4995C1E71FB7373800D856BB /* Info.plist */,
 				497E82B51FB77BD200A15902 /* CardsRepositoryServiceSpec.swift */,
 				49E7EB701FB87992000FCF8E /* ActionsTabViewSpec.swift */,
+				493E3A0C1FBC6A71009971A5 /* CardsDataSourceSpec.swift */,
 			);
 			path = CardsExerciseTests;
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 				49AA0A441FB77D5E00323E84 /* CardRepository.swift in Sources */,
 				49AA0A461FB7852900323E84 /* Card.swift in Sources */,
 				49AA0A481FB86E0400323E84 /* CardsViewController.swift in Sources */,
+				493E3A0B1FBC6A53009971A5 /* CardsDataSource.swift in Sources */,
 				497E82B21FB73B1900A15902 /* CardTableViewCell.swift in Sources */,
 				49E7EB731FB879B4000FCF8E /* ActionsTabView.swift in Sources */,
 				4995C1D11FB7373800D856BB /* AppDelegate.swift in Sources */,
@@ -388,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497E82B61FB77BD200A15902 /* CardsRepositoryServiceSpec.swift in Sources */,
+				493E3A0D1FBC6A71009971A5 /* CardsDataSourceSpec.swift in Sources */,
 				49E7EB711FB87992000FCF8E /* ActionsTabViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
